@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portfolio page HTML only.">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h2>Yara</h2>
+        <nav>
+            <a href="#about">About</a> &nbsp;
+            <a href="#skills">Skills</a> &nbsp;
+            <a href="#courses">Courses</a> &nbsp;
+            <a href="#gallery">Gallery</a> &nbsp;
+            <a href="#contact">Contact</a> &nbsp; <!-- &nbsp; = Extra space  won't wrap -->
+            <a href="#faq">FAQ</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Welcome To <span>My Portfolio</span></h1>
+
+            <p>
+                Hello, My name is <strong>Yara</strong>.
+                I am a <em>Front-End Developer</em>
+                My goal is to become a <mark>Full Stack Developer</mark>.
+            </p>
+
+            <img src="/imgs/img.jpg" alt="Profile picture" width="200">
+            <hr>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <h3>Tech Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>Next</li>
+                <li>Js</li>
+                <li>React</li>
+            </ul>
+
+            <h3>Learning Steps</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ol>
+
+            <p>
+                Lorem <strong>ipsum</strong> dolor sit <em>amet</em> consectetur <mark>adipisicing</mark> elit. Dolorum,
+                eius!
+            </p>
+            <hr>
+        </section>
+
+        <section id="courses">
+            <h2>My Courses</h2>
+            <table cellpadding="10">
+                <caption>
+                    <h4>Completed and Current Courses</h4>
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Time</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>2 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>2 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Js</td>
+                        <td>4 Weeks</td>
+                        <td rowspan="2">In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td>React</td>
+                        <td>2 Weeks</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Courses: 4</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+
+            <!-- figure container -->
+            <figure>
+                <!-- img -->
+                <img src="/imgs/img.jpg" alt="HTML project" width="200">
+                <!-- img caption -->
+                <figcaption>HTML Project</figcaption>
+            </figure>
+
+            <figure>
+                <img src="/imgs/img.jpg" alt="CSS project" width="200">
+                <figcaption>CSS Project</figcaption>
+            </figure>
+
+            <figure>
+                <img src="/imgs/img.jpg" alt="React project" width="200">
+                <figcaption>React Project</figcaption>
+            </figure>
+            <hr>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" id="phone" name="phone">
+                </p>
+
+                <p>
+                    <label for="birthdate">Birth Date</label><br>
+                    <input type="date" id="birthdate" name="birthdate">
+                </p>
+
+                <p>
+                    <label for="subject">Subject</label><br>
+                    <select id="subject" name="subject">
+                        <option>Question</option>
+                        <option>Project</option>
+                        <option>Training</option>
+                    </select>
+                </p>
+
+                <p>Preferred Contact Method</p>
+
+                <input type="radio" id="emailContact" name="contactMethod">
+                <label for="emailContact">Email</label>
+
+                <input type="radio" id="phoneContact" name="contactMethod">
+                <label for="phoneContact">Phone</label>
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" placeholder="Add Message"></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to the terms and conditions.</label>
+                </p>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+            <hr>
+        </section>
+
+        <section id="faq">
+            <h2>questions</h2>
+
+            <!-- Details=> expand to show hidden content -->
+            <details>
+                <!-- summary=> clickable heading -->
+                <summary>What is your favorite programming language?</summary>
+                <!-- hidden content -->
+                <p>HTML.</p>
+
+            </details>
+
+            <details>
+                <summary>Are you learning React?</summary>
+                <p>Yes, I Do.</p>
+            </details>
+
+            <details>
+                <summary>Do you work on personal projects?</summary>
+                <p>Yes, I Do.</p>
+            </details>
+
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <address>
+            Egypt
+        </address>
+
+        <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+
+        <p>
+            <a href="https://github.com/" target="_blank">GitHub</a> |
+            <a href="#about">Back to Top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
