@@ -1,0 +1,57 @@
+HTML 
+
+HTML (Hyper Text Markup Language) is the standard language used to create the structure of web pages. It defines the content of a page such as headings, paragraphs, images, links, tables, and forms.
+
+HTML Tags, Attributes and Their Uses
+
+<html> → Root of the HTML document. Attributes: lang for language and dir for text direction.
+<head> → Stores page information.
+<title> → Browser tab title.
+<meta> → Page metadata. Attributes: charset, name, content, and http-equiv.
+<body> → Visible page content. Attributes: onload.
+<header> → Top section of the page.
+<nav> → Navigation links.
+<main> → Main page content.
+<section> → Groups related content.
+<article> → Independent content/article.
+<aside> → Sidebar or extra content.
+<footer> → Bottom section of the page.
+<h1>–<h6> → Page headings.
+<p> → Paragraph text.
+<a> → Creates a hyperlink. Attributes: href, target, rel, download, and title.
+<img> → Displays an image. Attributes: src, alt, width, height, and loading.
+<figure> → Groups media content.
+<figcaption> → Caption for media.
+<div> → Generic block container.
+<span> → Inline text container.
+<br> → Line break.
+<hr> → Horizontal line.
+<strong> → Important bold text.
+<em> → Emphasized (italic) text.
+<sup> → Superscript text.
+<sub> → Subscript text.
+<ul> → Unordered list.
+<ol> → Ordered list. Attributes: start, reversed, and type.
+<li> → List item. Attributes: value (in ordered lists).
+<table> → Creates a table.
+<thead> → Table header.
+<tbody> → Table body.
+<tfoot> → Table footer.
+<tr> → Table row.
+<th> → Header cell. Attributes: scope, colspan, rowspan, and headers.
+<td> → Data cell. Attributes: colspan, rowspan, and headers.
+<form> → User input form. Attributes: action, method, enctype, autocomplete, and novalidate.
+<fieldset> → Groups form fields. Attributes: disabled, form, and name.
+<legend> → Fieldset title.
+<label> → Label for input. Attributes: for and form.
+<input> → Input field. Attributes: type, name, value, placeholder, required, checked, disabled, readonly, min, max, step, pattern, and autocomplete.
+<textarea> → Multi-line text input. Attributes: name, rows, cols, placeholder, maxlength, required, and readonly.
+<select> → Drop-down list. Attributes: name, multiple, required, size, and disabled.
+<option> → Option inside select. Attributes: value, selected, disabled, and label.
+<button> → Clickable button. Attributes: type, name, value, disabled, and autofocus.
+<datalist> → Input suggestions. Attributes: id.
+<details> → Expandable content. Attributes: open.
+<summary> → Details heading.
+<audio> → Embeds audio. Attributes: src, controls, autoplay, loop, muted, and preload.
+<video> → Embeds video. Attributes: src, controls, autoplay, loop, muted, poster, width, height, and preload.
+<iframe> → Embeds another webpage. Attributes: src, title, width, height, allow, loading, and sandbox.
