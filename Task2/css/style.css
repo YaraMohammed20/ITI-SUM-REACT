@@ -1,0 +1,26 @@
+.nav a{
+    color: red;
+    text-decoration: none;
+    padding: 5px;
+}
+h1{
+    color:chocolate;
+}
+.f1{
+    background: #efcece;
+}
+.f2{
+    background: #c9c3c3;
+}
+legend{
+    color:cornflowerblue;
+}
+.para1{
+    color:blueviolet;
+}
+.f2h{
+    color:darkgoldenrod;
+}
+.btn{
+    color: chocolate;
+}
