@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#3498db;
+    --secondary-color:#2ecc71;
+    --text-color:#333;
+    --bg-color:#f4f4f4;
+}
+
+body{
+    font-family: Arial;
+    background-color: var(--bg-color);
+   
+}
+.container{
+ background-image: url("../imgs/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* tag selector */
+header{
+    text-align:center;
+    padding:20px;
+     background: rgba(52,152,219,.8);
+    color:white;
+}
+
+/*specifity*/
+#main-title{
+    letter-spacing:2px;
+     color:white;
+}
+.title{
+    color: #000;
+}
+header h1{
+    color: red;
+}
+/*id - class - element */
+
+.name{
+    color:red !important; /* name must be highlighted*/
+}
+
+.profile-card{
+    width:80%;
+    max-width:900px;
+    min-height:80vh;
+    margin:5vh auto;
+    background:white;
+    border-radius:10px;
+    padding:2rem;
+    text-align:center;
+}
+
+.profile-img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+/* Descendant Selector */
+.profile-info p{
+    margin:1em;
+}
+
+.skills ul li{
+    color: brown;
+}
+
+/* Child Selector */
+.skills > ul{
+    list-style:none;
+}
+
+/* Group Selector */
+h2,h3{
+    color:var(--secondary-color);
+    margin:10px;
+}
+
+p{
+    color:var(--primary-color);
+}
+
+/* Local Variable */
+.contact-btn{
+    --btn-color: blue;
+    background:var(--btn-color);
+    color:white;
+    border:none;
+    padding:12px 25px;
+    margin-top:20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.contact-btn:hover{
+    background:var(--secondary-color);
+}
+
+.box{
+    width:70%;
+    height:120px;
+    margin:20px auto;
+    border:1px solid gray;
+    overflow:scroll;
+    padding:10px;
+    cursor:help;
+}
+
+.footer{
+    cursor:not-allowed;
+    margin-top:30px;
+    text-align:center;
+    padding:20px;
+    background:#000;
+    color:white;
+}
