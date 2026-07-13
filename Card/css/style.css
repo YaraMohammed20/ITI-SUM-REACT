@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#67A2C5;
+    --secondary-color:#9BCEC1;
+    --text-color:#333;
+    --bg-color:#FFEBD3;
+    --btn-color:FFB6A6 ;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: "Yuyu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+.container{
+    background-image: url("../imgs/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.header{
+    background:var(--bg-color);
+    color:var(--secondary-color);
+    padding: 10px;
+}
+
+.title{
+   text-align:left;
+   font-size: 30px;
+}
+
+nav{
+    list-style: none;
+    text-align: right;
+
+}
+
+nav ul li  {
+    display: inline;
+    margin-left: 20px; 
+    font-size: 30px;
+    
+}
+
+.profile-card{
+    width:80%;
+    max-width:900px;
+    min-height:80vh;
+    margin:5vh auto;
+    background-color: var(--bg-color);
+    border-radius:10px;
+    padding:2rem;
+    text-align:center;
+}
+
+.profile-img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+p,h2,h3{
+    color:var(--primary-color);
+    margin:10px;
+    font-size: 20px;
+}
+
+.contact-btn{
+    background:var(--primary-color);
+    color:var(--bg-color);
+    border:none;
+    padding:12px 25px;
+    margin-top:20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.contact-btn:hover{
+    background:var(--secondary-color);
+}
+
+.box{
+    width:70%;
+    height:120px;
+    margin:20px auto;
+    border:1px solid gray;
+    overflow:scroll;
+    padding:10px;
+    cursor:help;
+    line-height: normal;
+
+}
+
+.footer{
+    cursor:not-allowed;
+    margin-top:30px;
+    text-align:center;
+    padding:20px;
+    background:var(--bg-color);
+    color:var(--primary-color);
+}
