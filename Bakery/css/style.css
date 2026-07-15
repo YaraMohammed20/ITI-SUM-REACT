@@ -13,12 +13,13 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 .home {
   background-image: url("..//imgs/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 100vh;
 }
 
 nav {
@@ -94,6 +95,7 @@ button {
 }
 
 .section2 {
+  height: 100vh;
   padding: 30px;
   display: flex;
   align-items: center;
@@ -123,11 +125,148 @@ button {
 }
 
 .content2 p {
-   font-size: 20px;
-}
-.footer {
-  background-color: rgba(220, 193, 156, 0.597);
-  height: 50px;
-  text-align: center;
   font-size: 20px;
+}
+
+.section3 {
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgba(251, 245, 245, 0.655);
+}
+
+.image {
+  width: 30%;
+}
+
+.image img {
+  width: 100%;
+  display: block;
+}
+
+.content2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content2 h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.content2 p {
+  font-size: 20px;
+}
+
+.section4 {
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cards-sec4 {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cards-sec4 img {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.content-sec4  h2{
+  font-size: 40px;
+}
+.cards-sec4 p {
+  width: 350px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+
+.section5{
+   height: 100vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+.content-sec5 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+
+
+}
+.content-sec5 h4{
+  padding: 20px;
+  
+}
+
+.content-sec5 ul {
+  padding: 10px;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.footer {
+    background: #9b9994;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.footer-grid {
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-item h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.footer-item p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+ 
+}
+
+.footer-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-item li {
+    padding: 10px 0;
+ 
+    border-bottom: 1px solid #555;
+}
+
+.final {
+  background-color: #7b7973b8;
+  height: 150px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+
 }
