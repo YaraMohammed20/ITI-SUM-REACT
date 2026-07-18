@@ -1,0 +1,37 @@
+@media screen and (max-width: 500px) {
+  .hero .container header nav {
+    display: none;
+  }
+  .menu .cards .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .About .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .About .container img {
+    width: 200px;
+  }
+  .slider .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 90px;
+  }
+  footer .upper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .About .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .About .container img {
+    width: 200px;
+  }
+}

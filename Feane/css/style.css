@@ -1,0 +1,32 @@
+
+body{
+    font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+.hero {
+    background-image: url("../imgs/hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+.menu .cards .card img:hover{
+    transition: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 1.25s;
+    transition-property: all;
+    width: 130px;
+
+
+}
+.About .container img{
+        width: 600px;
+    }
+footer .col2 ul img{
+    width: 25px;
+}
+
