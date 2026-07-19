@@ -14,6 +14,9 @@ body{
     height: 100vh;
 
 }
+.menu{
+    background-color: rgba(231, 228, 228, 0.615);
+}
 .menu .cards .card img:hover{
     transition: ease-in-out;
     transition-duration: 1s;
@@ -24,8 +27,11 @@ body{
 
 }
 .About .container img{
-        width: 600px;
+        width: 400px;
     }
+.slider{
+    background-color: rgba(231, 228, 228, 0.615);
+}
 footer .col2 ul img{
     width: 25px;
 }
