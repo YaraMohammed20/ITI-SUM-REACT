@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Your To Do List</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Yuyu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container d-flex flex-column justify-content-center align-items-center m-auto">
+        <h1 class="text-center py-5 text-secondary">To Do List</h1>
+
+        <div class="card todo-card border-0 rounded-4 overflow-hidden bg-danger-subtle py-5" style="width: 22rem;">
+            <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title text-secondary">
+                    Add To List:
+                </h5>
+
+                <input class="border-danger-subtle rounded-2 mt-3 p-2" type="text" id="add"
+                    placeholder="Add New Task...">
+
+                <button id="addBtn" class="btn btn-outline-secondary rounded-pill w-50 m-auto mt-4">
+                    Add To List
+                </button>
+
+                <div id="taskList" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

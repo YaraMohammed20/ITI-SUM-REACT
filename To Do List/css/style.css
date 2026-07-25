@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  background-image: url("../imgs/pink.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  padding-top: 100px;
+}
+.todo-card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+
+.todo-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.todo-card input {
+  border: 2px solid #f5c2c7;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.todo-card input:focus {
+  border-color: #98353f;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.25);
+}
+

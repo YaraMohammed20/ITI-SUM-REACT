@@ -1,0 +1,23 @@
+
+body {
+  min-height: 100vh;
+  background-image: url("../imgs/Blue.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+input,textarea {
+  border: 2px solid #677ad9;
+  outline: none;
+  transition: all 0.3s ease;
+}
+input,textarea:focus {
+  border-color: #83c2e3;
+  box-shadow: 0 0 10px rgba(110, 103, 233, 0.25);
+}

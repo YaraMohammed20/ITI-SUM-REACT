@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Yuyu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <div class="container py-5">
+        <h1 class="text-center mb-5 text-white">Product System</h1>
+        <div class="card shadow p-4 mb-4">
+            <input type="text" id="productName" class="form-control mb-3" placeholder="Product Name">
+            <input type="number" id="productPrice" class="form-control mb-3" placeholder="Product Price">
+            <input type="text" id="productCategory" class="form-control mb-3" placeholder="Product Category">
+            <textarea id="productDescription" class="form-control mb-3" placeholder="Description"></textarea>
+            <button id="addBtn" class="btn btn-outline-info">
+                Add Product
+            </button>
+        </div>
+        <input type="search" id="searchInput" class="form-control mb-4" placeholder="Search by Name">
+        <div class="row g-4" id="productContainer"></div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
