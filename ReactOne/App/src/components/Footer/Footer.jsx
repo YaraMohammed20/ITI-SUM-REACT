@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white pt-12">
       <div className="container mx-auto px-6  ">
-        <div className="upper flex justify-between items-center gap-16">
+        <div className="upper flex flex-col lg:flex-row justify-between items-start lg:items-start gap-12">
           <div className="flex flex-col justify-start items-start gap-4 mb-5">
             <img src={Navimg} alt="Logo" className="w-30" />
             <p>We truly value what we do,
